@@ -1,0 +1,65 @@
+.navbar {
+    background-color: rgb(230, 167, 73);
+}
+
+.nav-item{
+    font-family: sans-serif;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+   
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    text-decoration: none;
+    color: inherit;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: rgb(247, 244, 238);
+}
+
+.footer {
+    background-color: rgb(230, 167, 73);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.logotipo{
+    text-align: center;
+}
+
+.container{
+    border: rgb(230, 167, 73) 1px solid;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    animation: container 0.3s;  
+}
+
+@keyframes container{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    
+} 
+
+h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
