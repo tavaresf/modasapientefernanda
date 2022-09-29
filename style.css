@@ -15,16 +15,6 @@ li {
    
 }
 
-.form {
-    display: flex;
-    align-items: center;
-    margin-left: 500px;
-    text-decoration: none;
-    color: inherit;
-    border: black 1px solid;
-    border-radius: 10px;
-    background-color: rgb(247, 244, 238);
-}
 
 .logotipo {
     text-align: center;
