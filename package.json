@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss moda-sapiente-bootstrap-master2/style.scss moda-sapiente-bootstrap-master2/style.css",
+    "build-css": "node-sass --include-path scss style.scss style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
     
   },
