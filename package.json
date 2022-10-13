@@ -1,11 +1,11 @@
 {
   "name": "modasapiente-fernandatavares",
   "version": "1.0.0",
-  "description": "",
+  "description": "projeto coderhouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include scss scss/style.scss style.css",
+    "build-css": "node-sass --include scss scss/style.scss style.css && node-sass --include scss scss/FaleConosco.scss style/faleconosco.css && node-sass --include scss scss/parceiros.scss style/parceiros.css && node-sass --include scss scss/quemsomos.scss style/quemsomos.css && node-sass --include scss scss/servicos.scss style/servicos.css",  
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {

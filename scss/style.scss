@@ -1,5 +1,6 @@
 
 $bg-color: rgb(230, 167, 73);
+$fontfam:sans-serif;
 
 .navbar {
     background-color:$bg-color;
@@ -15,7 +16,7 @@ $bg-color: rgb(230, 167, 73);
         font-size: 18px;
 
         nav-item{
-            font-family: sans-serif;
+            font-family: $fontfam;
         }
    
 }
