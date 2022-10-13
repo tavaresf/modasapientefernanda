@@ -1,92 +1,46 @@
-
 .navbar {
-    background-color: rgb(230, 167, 73);
-}
+  background-color: rgb(230, 167, 73); }
 
-.nav-item{
-    font-family: sans-serif;
-}
+ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 30px;
+  font-size: 18px; }
+  ul li nav-item {
+    font-family: sans-serif; }
 
-li {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    margin-left: 30px;
-    font-size: 18px;
-   
-}
+ul .form {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+  text-decoration: none;
+  color: inherit;
+  border: black 1px solid;
+  border-radius: 10px;
+  background-color: #f7f4ee; }
 
-.form {
-    display: flex;
-    align-items: center;
-    margin-left: 500px;
-    text-decoration: none;
-    color: inherit;
-    border: black 1px solid;
-    border-radius: 10px;
-    background-color: rgb(247, 244, 238);
-}
+ul .logotipo {
+  text-align: center; }
 
-.logotipo {
-    text-align: center;
-}
+ul .container {
+  border: rgb(230, 167, 73) 1px solid;
+  border-radius: 30px; }
 
-.container{
-    border: rgb(230, 167, 73) 1px solid;
-    border-radius: 30px;
-}
+ul .textoHome {
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: beige;
+  border: rgb(230, 167, 73) 1px solid;
+  border-radius: 30px;
+  padding: 20px;
+  width: 450px;
+  top: 500px;
+  left: 880px; }
 
-.textoHome {
-    position: absolute;
-    text-align: center;
-    font-family: sans-serif;
-    background-color: beige;
-    border: rgb(230, 167, 73) 1px solid;
-    border-radius: 30px;
-    padding: 20px;
-    width: 450px;
-    top: 500px;
-    left: 880px;
-}
-
-
-.artigos {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-}
-
-.img-fluid {
-    width: 70%;
-    height: 70%;
-    padding-top: 10%;
-    padding-left: 25%;
-    margin-bottom: 15px;
-    border-radius: 30px;
-}
-
-.artigos__materias{
-    width: 300px;
-    height: 200px;
-    background-color: white;
-    border: rgb(230, 167, 73) 1px solid;
-    border-radius: 30px;
-    margin-bottom: 50px;
-}
-
-.artigos__materias:hover{
-    width: 310px;
-    height: 206px;
-}
-
-.artigos__titulo{
-    font-size: 16px;
-    text-align: center;
-}
-
-.footer {
-    background-color: rgb(230, 167, 73);
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 12px;
-}
+ul .footer {
+  background-color: rgb(230, 167, 73);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px; }
